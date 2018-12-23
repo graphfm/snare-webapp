@@ -3,6 +3,9 @@ import { FaExpand, FaHeart, FaHome, FaPause, FaPlay, FaSearch } from 'react-icon
 
 import './App.scss';
 
+import Carousel from 'component/Carousel';
+import Tile from 'component/Tile';
+
 class App extends Component {
   render() {
     return (
@@ -11,19 +14,19 @@ class App extends Component {
           <h2>
             Top Podcasts
           </h2>
-          <div className='carousel'>
-            <div className='tile tile-podcast' />
-            <div className='tile tile-podcast' />
-            <div className='tile tile-podcast' />
-          </div>
+          <Carousel>
+            <Tile />
+            <Tile />
+            <Tile />
+          </Carousel>
           <h2>
             Browse by genre
           </h2>
-          <div className='carousel'>
-            <div className='tile tile-genre' />
-            <div className='tile tile-genre' />
-            <div className='tile tile-genre' />
-          </div>
+          <Carousel>
+            <Tile />
+            <Tile />
+            <Tile />
+          </Carousel>
         </div>
         <div className='audio-player'>
           <div className='progress-bar'>

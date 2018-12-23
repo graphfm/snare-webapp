@@ -1,0 +1,12 @@
+.tile {
+  width: 40vmin;
+  max-width: 25vh;
+  height: 40vmin;
+  max-height: 25vh;
+  background-color: gray;
+  display: inline-block;
+  margin-left: 1em;
+  &:last-child {
+    margin-right: 1em;
+  }
+}

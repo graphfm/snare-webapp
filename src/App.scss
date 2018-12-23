@@ -20,23 +20,6 @@ svg {
       margin-bottom: 0.5em;
       font-size: 1.25em;
     }
-    .carousel {
-      white-space: nowrap;
-      width: 100%;
-      overflow-x: scroll;
-      .tile {
-        width: 40vmin;
-        max-width: 25vh;
-        height: 40vmin;
-        max-height: 25vh;
-        background-color: gray;
-        display: inline-block;
-        margin-left: 1em;
-        &:last-child {
-          margin-right: 1em;
-        }
-      }
-    }
   }
   .audio-player {
     display: grid;
