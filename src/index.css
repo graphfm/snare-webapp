@@ -16,3 +16,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+h1, h2, h3, h4 {
+  margin-block-start: inherit;
+  margin-block-end: inherit;
+  margin-inline-start: inherit;
+  margin-inline-end: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
