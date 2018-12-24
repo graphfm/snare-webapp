@@ -5,6 +5,7 @@ import './App.scss';
 
 import Carousel from 'component/Carousel';
 import Tile from 'component/Tile';
+import TopPodcasts from 'component/TopPodcasts';
 
 class App extends Component {
   render() {
@@ -14,11 +15,7 @@ class App extends Component {
           <h2>
             Top Podcasts
           </h2>
-          <Carousel>
-            <Tile />
-            <Tile />
-            <Tile />
-          </Carousel>
+          <TopPodcasts />
           <h2>
             Browse by genre
           </h2>

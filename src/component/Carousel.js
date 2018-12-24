@@ -15,7 +15,7 @@ class Carousel extends PureComponent {
 }
 
 Carousel.propTypes = {
-
+  children: PropTypes.array,
 };
 
 export default Carousel;

@@ -1,12 +1,42 @@
+@import '../Theme';
+
 .tile {
   width: 40vmin;
   max-width: 25vh;
-  height: 40vmin;
-  max-height: 25vh;
-  background-color: gray;
   display: inline-block;
   margin-left: 1em;
   &:last-child {
     margin-right: 1em;
+  }
+  .tile-grid {
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto;
+    .image {
+      height: 40vmin;
+      max-height: 25vh;
+      display: block;
+      width: 100%;
+      background-size: cover;
+    }
+    .description {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      text-align: center;
+      .primary, .secondary {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .primary {
+        margin: 0.25em;
+      }
+      .secondary {
+        font-size: 0.875em;
+        color: $color-primary-2;
+      }
+    }
   }
 }
