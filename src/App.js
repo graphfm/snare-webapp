@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { FaExpand, FaHeart, FaHome, FaPause, FaPlay, FaSearch } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 import './App.scss';
 
@@ -36,18 +37,26 @@ class App extends Component {
             </div>
           </div>
           <button className='expand-audio-player'>
-            <FaExpand />
+            <Link to='/player'>
+              <FaExpand />
+            </Link>
           </button>
         </div>
         <div className='navigation'>
           <button>
-            <FaHome />
+            <Link to='/'>
+              <FaHome />
+            </Link>
           </button>
           <button>
-            <FaSearch />
+            <Link to='/search'>
+              <FaSearch />
+            </Link>
           </button>
           <button>
-            <FaHeart />
+            <Link to='/subscriptions'>
+              <FaHeart />
+            </Link>
           </button>
         </div>
       </div>
