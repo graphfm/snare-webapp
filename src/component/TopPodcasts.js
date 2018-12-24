@@ -30,7 +30,7 @@ class TopPodcasts extends Component {
     return (
       <Tile
         to={`/podcast/${podcast.id}`}
-        image={podcast.artworkUrl100}
+        image={`url(${podcast.artworkUrl100}`}
         primary={podcast.name}
         secondary={podcast.artistName}
         key={i}

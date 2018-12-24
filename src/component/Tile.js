@@ -28,7 +28,9 @@ class Tile extends PureComponent {
         <OptionalLink to={to}>
           <div className='tile-grid'>
             {image && (
-              <img className='image' src={image} alt='' />
+              <div className='image' style={{ backgroundImage: image }}>
+                {this.inner()}
+              </div>
             )}
             <div className='description'>
               {primary && (
@@ -45,6 +47,14 @@ class Tile extends PureComponent {
           </div>
         </OptionalLink>
       </div>
+    );
+  }
+  inner() {
+    const { children } = this.props;
+    return children && (
+      <span className='inner'>
+        {children}
+      </span>
     );
   }
 }

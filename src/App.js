@@ -3,8 +3,7 @@ import { FaExpand, FaHeart, FaHome, FaPause, FaPlay, FaSearch } from 'react-icon
 
 import './App.scss';
 
-import Carousel from 'component/Carousel';
-import Tile from 'component/Tile';
+import Genres from 'component/Genres';
 import TopPodcasts from 'component/TopPodcasts';
 
 class App extends Component {
@@ -19,11 +18,7 @@ class App extends Component {
           <h2>
             Browse by genre
           </h2>
-          <Carousel>
-            <Tile />
-            <Tile />
-            <Tile />
-          </Carousel>
+          <Genres />
         </div>
         <div className='audio-player'>
           <div className='progress-bar'>
