@@ -3,12 +3,17 @@
 .tile {
   width: 40vmin;
   max-width: 25vh;
-  display: inline-block;
-  margin-left: 1em;
   text-align: center;
   white-space: normal;
-  &:last-child {
-    margin-right: 1em;
+  @media (orientation: portrait) {
+    display: inline-block;
+    margin-left: 1em;
+    &:last-child {
+      margin-right: 1em;
+    }
+  }
+  @media (orientation: landscape) {
+    margin: 0.5em;
   }
   .tile-grid {
     height: 100%;

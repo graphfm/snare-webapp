@@ -1,5 +1,15 @@
 .carousel {
-  white-space: nowrap;
+  box-sizing: border-box;
   width: 100%;
+  white-space: nowrap;
   overflow-x: scroll;
+  @media (orientation: landscape) {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    white-space: inherit;
+    overflow-x: inherit;
+  }
 }
