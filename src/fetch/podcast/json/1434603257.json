@@ -1,0 +1,10 @@
+
+
+
+{
+ "resultCount":1,
+ "results": [
+{"wrapperType":"track", "kind":"podcast", "artistId":284341002, "collectionId":1434603257, "trackId":1434603257, "artistName":"iHeartRadio & Glamour", "collectionName":"Broken Harts", "trackName":"Broken Harts", "collectionCensoredName":"Broken Harts", "trackCensoredName":"Broken Harts", "artistViewUrl":"https://itunes.apple.com/us/artist/howstuffworks/284341002?mt=2&uo=4", "collectionViewUrl":"https://itunes.apple.com/us/podcast/broken-harts/id1434603257?mt=2&uo=4", "feedUrl":"https://feeds.megaphone.fm/HSW2732644812", "trackViewUrl":"https://itunes.apple.com/us/podcast/broken-harts/id1434603257?mt=2&uo=4", "artworkUrl30":"https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/b3/e3/c4/b3e3c483-e1ac-aff4-b7ec-92a27e083bb1/source/30x30bb.jpg", "artworkUrl60":"https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/b3/e3/c4/b3e3c483-e1ac-aff4-b7ec-92a27e083bb1/source/60x60bb.jpg", "artworkUrl100":"https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/b3/e3/c4/b3e3c483-e1ac-aff4-b7ec-92a27e083bb1/source/100x100bb.jpg", "collectionPrice":0.00, "trackPrice":0.00, "trackRentalPrice":0, "collectionHdPrice":0, "trackHdPrice":0, "trackHdRentalPrice":0, "releaseDate":"2018-12-18T05:01:00Z", "collectionExplicitness":"notExplicit", "trackExplicitness":"notExplicit", "trackCount":4, "country":"USA", "currency":"USD", "primaryGenreName":"Society & Culture", "artworkUrl600":"https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/b3/e3/c4/b3e3c483-e1ac-aff4-b7ec-92a27e083bb1/source/600x600bb.jpg", "genreIds":["1324", "26"], "genres":["Society & Culture", "Podcasts"]}]
+}
+
+

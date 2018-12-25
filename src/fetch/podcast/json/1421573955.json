@@ -1,0 +1,10 @@
+
+
+
+{
+ "resultCount":1,
+ "results": [
+{"wrapperType":"track", "kind":"podcast", "artistId":1134742667, "collectionId":1421573955, "trackId":1421573955, "artistName":"Wondery", "collectionName":"Dr. Death", "trackName":"Dr. Death", "collectionCensoredName":"Dr. Death", "trackCensoredName":"Dr. Death", "artistViewUrl":"https://itunes.apple.com/us/artist/wondery/1134742667?mt=2&uo=4", "collectionViewUrl":"https://itunes.apple.com/us/podcast/dr-death/id1421573955?mt=2&uo=4", "feedUrl":"https://rss.art19.com/dr-death", "trackViewUrl":"https://itunes.apple.com/us/podcast/dr-death/id1421573955?mt=2&uo=4", "artworkUrl30":"https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/ec/99/64/ec996492-dec4-5e86-69bc-c9984f512305/source/30x30bb.jpg", "artworkUrl60":"https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/ec/99/64/ec996492-dec4-5e86-69bc-c9984f512305/source/60x60bb.jpg", "artworkUrl100":"https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/ec/99/64/ec996492-dec4-5e86-69bc-c9984f512305/source/100x100bb.jpg", "collectionPrice":0.00, "trackPrice":0.00, "trackRentalPrice":0, "collectionHdPrice":0, "trackHdPrice":0, "trackHdRentalPrice":0, "releaseDate":"2018-12-13T03:32:00Z", "collectionExplicitness":"explicit", "trackExplicitness":"explicit", "trackCount":13, "country":"USA", "currency":"USD", "primaryGenreName":"Science & Medicine", "contentAdvisoryRating":"Explicit", "artworkUrl600":"https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/ec/99/64/ec996492-dec4-5e86-69bc-c9984f512305/source/600x600bb.jpg", "genreIds":["1315", "26", "1307"], "genres":["Science & Medicine", "Podcasts", "Health"]}]
+}
+
+

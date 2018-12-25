@@ -1,0 +1,10 @@
+
+
+
+{
+ "resultCount":1,
+ "results": [
+{"wrapperType":"track", "kind":"podcast", "artistId":1440160896, "collectionId":1345682353, "trackId":1345682353, "artistName":"Armchair Umbrella", "collectionName":"Armchair Expert with Dax Shepard", "trackName":"Armchair Expert with Dax Shepard", "collectionCensoredName":"Armchair Expert with Dax Shepard", "trackCensoredName":"Armchair Expert with Dax Shepard", "artistViewUrl":"https://itunes.apple.com/us/artist/armchair-umbrella/1440160896?mt=2&uo=4", "collectionViewUrl":"https://itunes.apple.com/us/podcast/armchair-expert-with-dax-shepard/id1345682353?mt=2&uo=4", "feedUrl":"https://rss.simplecast.com/podcasts/4123/rss", "trackViewUrl":"https://itunes.apple.com/us/podcast/armchair-expert-with-dax-shepard/id1345682353?mt=2&uo=4", "artworkUrl30":"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/c2/88/3e/c2883e8c-fdaf-5e57-1217-869b79b0ee1a/source/30x30bb.jpg", "artworkUrl60":"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/c2/88/3e/c2883e8c-fdaf-5e57-1217-869b79b0ee1a/source/60x60bb.jpg", "artworkUrl100":"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/c2/88/3e/c2883e8c-fdaf-5e57-1217-869b79b0ee1a/source/100x100bb.jpg", "collectionPrice":0.00, "trackPrice":0.00, "trackRentalPrice":0, "collectionHdPrice":0, "trackHdPrice":0, "trackHdRentalPrice":0, "releaseDate":"2018-12-20T08:30:00Z", "collectionExplicitness":"explicit", "trackExplicitness":"explicit", "trackCount":66, "country":"USA", "currency":"USD", "primaryGenreName":"Comedy", "contentAdvisoryRating":"Explicit", "artworkUrl600":"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/c2/88/3e/c2883e8c-fdaf-5e57-1217-869b79b0ee1a/source/600x600bb.jpg", "genreIds":["1303", "26", "1309", "1310"], "genres":["Comedy", "Podcasts", "TV & Film", "Music"]}]
+}
+
+

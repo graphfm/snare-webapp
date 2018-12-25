@@ -1,0 +1,10 @@
+
+
+
+{
+ "resultCount":1,
+ "results": [
+{"wrapperType":"track", "kind":"podcast", "artistId":284341002, "collectionId":1324249769, "trackId":1324249769, "artistName":"iHeartRadio & Tenderfoot TV", "collectionName":"Monster", "trackName":"Monster", "collectionCensoredName":"Monster", "trackCensoredName":"Monster", "artistViewUrl":"https://itunes.apple.com/us/artist/howstuffworks/284341002?mt=2&uo=4", "collectionViewUrl":"https://itunes.apple.com/us/podcast/monster/id1324249769?mt=2&uo=4", "feedUrl":"https://feeds.megaphone.fm/monster", "trackViewUrl":"https://itunes.apple.com/us/podcast/monster/id1324249769?mt=2&uo=4", "artworkUrl30":"https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/42/7d/29/427d29e1-0bf2-afbd-f217-9ecce4d075e9/source/30x30bb.jpg", "artworkUrl60":"https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/42/7d/29/427d29e1-0bf2-afbd-f217-9ecce4d075e9/source/60x60bb.jpg", "artworkUrl100":"https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/42/7d/29/427d29e1-0bf2-afbd-f217-9ecce4d075e9/source/100x100bb.jpg", "collectionPrice":0.00, "trackPrice":0.00, "trackRentalPrice":0, "collectionHdPrice":0, "trackHdPrice":0, "trackHdRentalPrice":0, "releaseDate":"2018-12-20T05:01:00Z", "collectionExplicitness":"explicit", "trackExplicitness":"explicit", "trackCount":21, "country":"USA", "currency":"USD", "primaryGenreName":"Society & Culture", "contentAdvisoryRating":"Explicit", "artworkUrl600":"https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/42/7d/29/427d29e1-0bf2-afbd-f217-9ecce4d075e9/source/600x600bb.jpg", "genreIds":["1324", "26"], "genres":["Society & Culture", "Podcasts"]}]
+}
+
+

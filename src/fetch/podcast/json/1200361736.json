@@ -1,0 +1,10 @@
+
+
+
+{
+ "resultCount":1,
+ "results": [
+{"wrapperType":"track", "kind":"podcast", "artistId":121664449, "collectionId":1200361736, "trackId":1200361736, "artistName":"The New York Times", "collectionName":"The Daily", "trackName":"The Daily", "collectionCensoredName":"The Daily", "trackCensoredName":"The Daily", "artistViewUrl":"https://itunes.apple.com/us/artist/the-new-york-times/121664449?mt=2&uo=4", "collectionViewUrl":"https://itunes.apple.com/us/podcast/the-daily/id1200361736?mt=2&uo=4", "feedUrl":"http://rss.art19.com/the-daily", "trackViewUrl":"https://itunes.apple.com/us/podcast/the-daily/id1200361736?mt=2&uo=4", "artworkUrl30":"https://is4-ssl.mzstatic.com/image/thumb/Music122/v4/1b/83/76/1b8376aa-90a9-eae1-662d-2b24faf1bf6e/source/30x30bb.jpg", "artworkUrl60":"https://is4-ssl.mzstatic.com/image/thumb/Music122/v4/1b/83/76/1b8376aa-90a9-eae1-662d-2b24faf1bf6e/source/60x60bb.jpg", "artworkUrl100":"https://is4-ssl.mzstatic.com/image/thumb/Music122/v4/1b/83/76/1b8376aa-90a9-eae1-662d-2b24faf1bf6e/source/100x100bb.jpg", "collectionPrice":0.00, "trackPrice":0.00, "trackRentalPrice":0, "collectionHdPrice":0, "trackHdPrice":0, "trackHdRentalPrice":0, "releaseDate":"2018-12-24T10:45:00Z", "collectionExplicitness":"cleaned", "trackExplicitness":"cleaned", "trackCount":300, "country":"USA", "currency":"USD", "primaryGenreName":"News & Politics", "contentAdvisoryRating":"Clean", "artworkUrl600":"https://is4-ssl.mzstatic.com/image/thumb/Music122/v4/1b/83/76/1b8376aa-90a9-eae1-662d-2b24faf1bf6e/source/600x600bb.jpg", "genreIds":["1311", "26"], "genres":["News & Politics", "Podcasts"]}]
+}
+
+

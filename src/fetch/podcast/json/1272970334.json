@@ -1,0 +1,10 @@
+
+
+
+{
+ "resultCount":1,
+ "results": [
+{"wrapperType":"track", "kind":"podcast", "artistId":1134742667, "collectionId":1272970334, "trackId":1272970334, "artistName":"L.A. Times | Wondery", "collectionName":"Dirty John", "trackName":"Dirty John", "collectionCensoredName":"Dirty John", "trackCensoredName":"Dirty John", "artistViewUrl":"https://itunes.apple.com/us/artist/wondery/1134742667?mt=2&uo=4", "collectionViewUrl":"https://itunes.apple.com/us/podcast/dirty-john/id1272970334?mt=2&uo=4", "feedUrl":"https://rss.art19.com/dirty-john", "trackViewUrl":"https://itunes.apple.com/us/podcast/dirty-john/id1272970334?mt=2&uo=4", "artworkUrl30":"https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/ce/3d/b4/ce3db4c8-86ba-29ca-8cb0-4cd68388efeb/source/30x30bb.jpg", "artworkUrl60":"https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/ce/3d/b4/ce3db4c8-86ba-29ca-8cb0-4cd68388efeb/source/60x60bb.jpg", "artworkUrl100":"https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/ce/3d/b4/ce3db4c8-86ba-29ca-8cb0-4cd68388efeb/source/100x100bb.jpg", "collectionPrice":0.00, "trackPrice":0.00, "trackRentalPrice":0, "collectionHdPrice":0, "trackHdPrice":0, "trackHdRentalPrice":0, "releaseDate":"2018-11-21T08:05:00Z", "collectionExplicitness":"cleaned", "trackExplicitness":"cleaned", "trackCount":12, "country":"USA", "currency":"USD", "primaryGenreName":"Personal Journals", "contentAdvisoryRating":"Clean", "artworkUrl600":"https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/ce/3d/b4/ce3db4c8-86ba-29ca-8cb0-4cd68388efeb/source/600x600bb.jpg", "genreIds":["1302", "26", "1324"], "genres":["Personal Journals", "Podcasts", "Society & Culture"]}]
+}
+
+

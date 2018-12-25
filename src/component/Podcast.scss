@@ -1,0 +1,38 @@
+@import '../Theme';
+
+.podcast {
+  header {
+    margin: 0.5em;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 0.5em;
+    grid-template-areas: 'img meta' 'description description';
+    img {
+      grid-area: img;
+    }
+    h1, h2, h3 {
+      text-align: left;
+    }
+    h1 {
+      margin: 0;
+    }
+    h2 {
+      margin: 0;
+      color: $color-primary-2;
+    }
+    h3 {
+      color: $color-primary-0;
+    }
+    .description {
+      grid-area: description;
+      margin-top: 0.25em;
+      text-align: justify;
+    }
+    .released {
+      grid-area: released;
+      color: $color-primary-0;
+    }
+  }
+}
