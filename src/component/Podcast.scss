@@ -47,6 +47,7 @@
       padding: 0.25em 0.5em;
       background-color: $color-primary-4;
       border-top: 0.25em solid $color-primary-3;
+      word-wrap: break-word;
       h2 {
         grid-area: title;
         margin: 0;
