@@ -1,7 +1,7 @@
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 import { FaSpinner } from 'react-icons/fa';
 
-class AnimatedFaSpinner extends PureComponent {
+class AnimatedFaSpinner extends Component {
   constructor() {
     super();
     this.state = this.getInitialState();

@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 import { FaPlay, FaDownload, FaRegPlusSquare, FaRegMinusSquare, FaTrash } from 'react-icons/fa';
 import PropTypes from 'prop-types';
 import sanitizeHtml from 'sanitize-html';
@@ -17,7 +17,7 @@ const sanitizeDescription = dirty => sanitizeHtml(dirty, {
   },
 });
 
-class Podcast extends PureComponent {
+class Podcast extends Component {
   constructor() {
     super();
     this.state = this.getInitialState();
