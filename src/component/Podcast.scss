@@ -1,38 +1,78 @@
 @import '../Theme';
 
 .podcast {
+  p {
+    &:not(:first-child) { margin-top: 0.5em; }
+    &:empty { display: none; }
+  }
+  a { color: $color-complement-2; }
   header {
-    margin: 0.5em;
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: auto 1fr;
     grid-column-gap: 1em;
     grid-row-gap: 0.5em;
     grid-template-areas: 'img meta' 'description description';
-    img {
-      grid-area: img;
-    }
+    padding: 0.5em;
+    background-color: $color-primary-4;
+    img { grid-area: img; }
     h1, h2, h3 {
       text-align: left;
-    }
-    h1 {
       margin: 0;
     }
-    h2 {
-      margin: 0;
-      color: $color-primary-2;
-    }
-    h3 {
-      color: $color-primary-0;
-    }
+    h2, h3 { color: $color-primary-2; }
+    h3 { font-size: .85em; }
     .description {
       grid-area: description;
       margin-top: 0.25em;
-      text-align: justify;
     }
     .released {
       grid-area: released;
       color: $color-primary-0;
+    }
+  }
+  .episodes {
+    .episode {
+      display: grid;
+      grid-template-rows: repeat(auto, 1);
+      grid-template-columns: auto 1fr;
+      grid-template-areas:
+          'title title'
+          'description description'
+          'published duration'
+          'controls controls'
+          ;
+      grid-column-gap: 1em;
+      grid-row-gap: 0.25em;
+      padding: 0.25em 0.5em;
+      background-color: $color-primary-4;
+      border-top: 0.25em solid $color-primary-3;
+      h2 {
+        grid-area: title;
+        margin: 0;
+        text-align: left;
+      }
+      .description {
+        grid-area: description;
+      }
+      .published-date {
+        grid-area: published;
+        color: $color-primary-2;
+      }
+      .duration {
+        grid-area: duration;
+        color: $color-primary-2;
+      }
+      .controls {
+        grid-area: controls;
+        button {
+          margin: 0.375em 0.5em;
+          svg {
+            fill: $color-primary-2;
+            font-size: 1.5em;
+          }
+        }
+      }
     }
   }
 }
