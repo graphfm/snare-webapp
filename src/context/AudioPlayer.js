@@ -36,6 +36,9 @@ class Provider extends Component {
       position: 0,
     };
   }
+  componentDidMount() {
+    this.originalTitle = document.title;
+  }
   render() {
     const { children } = this.props;
     return (
@@ -66,10 +69,14 @@ class Provider extends Component {
       episodePlaying: episode,
       position: 0,
     }));
+    document.title = episode.title;
     this.audio = new Audio(episode.audioUrl);
     this.audio.addEventListener('playing', () => this.setState(state => ({ ...state, paused: false })));
     this.audio.addEventListener('pause', () => this.setState(state => ({ ...state, paused: true })));
-    this.audio.addEventListener('ended', () => this.setState(state => ({ ...state, episodePlaying: {} })));
+    this.audio.addEventListener('ended', () => {
+      this.setState(state => ({ ...state, episodePlaying: {} }));
+      document.title = this.originalTitle;
+    });
     this.positionInterval = setInterval(
       () => this.setState(state => ({ ...state, position: this.audio.currentTime })),
       1000,
