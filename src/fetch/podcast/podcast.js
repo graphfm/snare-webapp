@@ -32,7 +32,7 @@ function podcast(id) {
         }
         resolve(response.results[0]);
       },
-      1000,
+      10,
     )
   });
 }

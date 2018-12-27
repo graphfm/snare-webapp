@@ -20,7 +20,7 @@ function podcastFeed(feedUrl) {
         }
         resolve(responses[feedUrl]);
       },
-      1000,
+      10,
     )
   });
 }
