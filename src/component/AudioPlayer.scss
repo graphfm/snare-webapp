@@ -1,0 +1,32 @@
+@import '../Theme';
+
+.audio-player {
+  display: grid;
+  grid-template-rows: 0.25em 2.5em;
+  grid-template-columns: 2.5em 1fr 2.5em;
+  grid-template-areas: 'progress   progress progress'
+                       'play-pause details  expand';
+  background-color: $color-primary-4;
+  .progress-bar {
+    grid-area: progress;
+    background-color: $color-complement-3;
+    .progress-bar-progress {
+      height: 100%;
+      background-color: $color-complement-2;
+      transition: width 1s linear;
+    }
+  }
+  .play, .pause {
+    grid-area: play-pause;
+  }
+  .active-audio-details {
+    grid-area: details;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .expand-audio-player {
+    grid-area: expand;
+  }
+}

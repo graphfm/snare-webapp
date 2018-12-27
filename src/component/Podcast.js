@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FaPlay, FaDownload, FaRegPlusSquare, FaRegMinusSquare, FaTrash } from 'react-icons/fa';
+import { FaPlay, FaDownload, FaHeadphones, FaRegPlusSquare, FaRegMinusSquare, FaTrash } from 'react-icons/fa';
 import PropTypes from 'prop-types';
 import sanitizeHtml from 'sanitize-html';
 
@@ -7,6 +7,7 @@ import './Podcast.scss';
 
 import AnimatedFaSpinner from 'component/AnimatedFaSpinner';
 import Page from 'component/Page';
+import { withAudioPlayer } from 'context/AudioPlayer';
 import fetchPodcast from 'fetch/podcast';
 import fetchPodcastFeed from 'fetch/podcastFeed';
 
@@ -20,6 +21,7 @@ const sanitizeDescription = dirty => sanitizeHtml(dirty, {
 class Podcast extends Component {
   constructor() {
     super();
+    this.renderItem = this.renderItem.bind(this);
     this.state = this.getInitialState();
   }
   getInitialState() {
@@ -104,6 +106,7 @@ class Podcast extends Component {
     ) : children;
   }
   renderItem(item, i) {
+    const { episodePlaying, play } = this.props;
     return (
       <div className='episode' key={i}>
         <h2 className='title'>
@@ -120,12 +123,15 @@ class Podcast extends Component {
           {item.duration}
         </div>
         <div className='controls'>
-          <button
-            disabled={false}
-            onClick={() => console.log('doPlay')}
-          >
-            <FaPlay />
-          </button>
+          {episodePlaying.id === item.id ? (
+            <button disabled={true}>
+              <FaHeadphones className='disabled' />
+            </button>
+          ) : (
+            <button onClick={() => play(item)}>
+              <FaPlay />
+            </button>
+          )}
           {true ? (
             <button onClick={() => console.log('doStoreOffline')}>
               <FaDownload />
@@ -154,4 +160,4 @@ Podcast.propTypes = {
   match: PropTypes.object,
 };
 
-export default Podcast;
+export default withAudioPlayer(Podcast);

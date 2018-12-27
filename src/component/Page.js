@@ -1,10 +1,12 @@
 import React, { PureComponent } from 'react';
-import { FaExpand, FaHeart, FaHome, FaPause, FaPlay, FaSearch } from 'react-icons/fa';
+import { FaHeart, FaHome, FaSearch } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
 
 import './Page.scss';
+
+import AudioPlayer from 'component/AudioPlayer';
 
 class Page extends PureComponent {
   render() {
@@ -14,27 +16,7 @@ class Page extends PureComponent {
         <div className='page-content'>
           {children}
         </div>
-        <div className='audio-player'>
-          <div className='progress-bar'>
-            <div className='progress-bar-progress' />
-          </div>
-          <button className='play-pause'>
-            {true ? <FaPlay /> : <FaPause />}
-          </button>
-          <div className='active-audio-details'>
-            <div className='primary'>
-              My Episode
-            </div>
-            <div className='secondary'>
-              My Podcast
-            </div>
-          </div>
-          <button className='expand-audio-player'>
-            <Link to='/player'>
-              <FaExpand />
-            </Link>
-          </button>
-        </div>
+        <AudioPlayer />
         <div className='navigation'>
           <button>
             <Link to='/'>
