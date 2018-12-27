@@ -114,7 +114,7 @@ class Podcast extends Component {
           dangerouslySetInnerHTML={{ __html: sanitizeDescription(item.description) }}
         />
         <div className='published-date'>
-          published {new Date(item.publishedDate).toLocaleTimeString()}
+          published {new Date(item.publishedDate).toLocaleDateString()}
         </div>
         <div className='duration'>
           {item.duration}
